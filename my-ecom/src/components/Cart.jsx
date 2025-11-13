@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import CartItem from "./cardItem";
+import CartItem from "./CardItem";
 import { PriceType } from "../utils/PriceType";
 
 export default function Cart({ items, onRemove, onChangeQty }) {
